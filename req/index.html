@@ -4,14 +4,14 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
         
         
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>Vesta</title>
-        <link href="css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Requisitos - Vesta</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -19,13 +19,13 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
 
         <div class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
@@ -39,21 +39,21 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href=".">Vesta</a>
+                    <a class="navbar-brand" href="..">Vesta</a>
                 </div>
 
                 <!-- Expanded navigation -->
                 <div class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Inicio</a>
+                            </li>
+                            <li >
+                                <a href="../acerca/">Acerca de</a>
+                            </li>
                             <li class="active">
-                                <a href=".">Inicio</a>
-                            </li>
-                            <li >
-                                <a href="acerca/">Acerca de</a>
-                            </li>
-                            <li >
-                                <a href="req/">Requisitos</a>
+                                <a href="./">Requisitos</a>
                             </li>
                         </ul>
 
@@ -63,13 +63,13 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="disabled">
-                                <a rel="next" >
+                            <li >
+                                <a rel="next" href="../acerca/">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
-                            <li >
-                                <a rel="prev" href="acerca/">
+                            <li class="disabled">
+                                <a rel="prev" >
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -81,54 +81,63 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#bienvenido-a-vesta">Bienvenido a Vesta</a></li>
-            <li><a href="#vesta">Vesta</a></li>
-            <li><a href="#beneficios">Beneficios</a></li>
-            <li><a href="#caracteristicas">Características</a></li>
-        <li class="main "><a href="#comandos">Comandos</a></li>
-            <li><a href="#project-layout">Project layout</a></li>
+        <li class="main active"><a href="#requerimientos-e-instalacion">Requerimientos e Instalación</a></li>
+            <li><a href="#requerimientos">Requerimientos</a></li>
+            <li><a href="#instalacion">Instalación</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="bienvenido-a-vesta">Bienvenido a Vesta</h1>
-<p>Para mas información de la aplicación visite: <a href="http://vesta.baware.com.mx/">vesta.com</a></p>
-<p>AQUI VA LA IMAGEN DE VESTA</p>
-<h2 id="vesta">Vesta</h2>
-<p>Vesta es una aplicación que permite administrar y controlar todas las configuraciones de cualquier sistema o recurso informático como pueden ser: servidores de aplicaciones, servidores, bases de datos, clúster, aplicaciones, entre otros. Gestiona y almacena de forma segura sus propiedades permitiendo importar y exportar automáticamente las configuraciones de un sistema a través de los plugins disponibles.</p>
-<p>Con Vesta, los administradores tienen todas las configuraciones de la infraestructura informática de la empresa bajo control, lo que les permitirá tener una mejor organización y administración, además de tener un orden y obtener en el menor tiempo posible la información. </p>
-<h2 id="beneficios">Beneficios</h2>
-<ul>
-<li>Reducción hasta un 95% el esfuerzo de almacenar la configuración en archivos.</li>
-<li>Disminuye el error humano.</li>
-<li>Sincronice automáticamente con aplicaciones compatibles (ver plugins).</li>
-<li>Ahorre hasta 90% del tiempo en tareas administrativas.</li>
-<li>Descarte la pérdida de información de las configuraciones de sistemas.</li>
-</ul>
-<h2 id="caracteristicas">Características</h2>
-<ul>
-<li>Administra cualquier recurso de TI.</li>
-<li>Gestiona y controla las configuraciones. </li>
-<li>Administra toda la infraestructura. </li>
-<li>Centraliza toda la información de los recursos. </li>
-<li>Asegura las propiedades de los componentes. </li>
-<li>Agiliza el tiempo de productividad. </li>
-<li>Importa y exporta </li>
-</ul>
+<h1 id="requerimientos-e-instalacion">Requerimientos e Instalación</h1>
 <hr />
-<h1 id="comandos">Comandos</h1>
+<p>Para que Vesta pueda funcionar correctamente en el equipo, se deben considerar los siguientes requisitos.</p>
+<h2 id="requerimientos">Requerimientos</h2>
+<p>Disponer de un equipo de cómputo para la instalación del producto considerando como mínimo las siguientes características:</p>
+<p><strong>Generales</strong></p>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs help</code> - Print this help message.</li>
+<li>
+<p>Contar con una licencia para la instalación de Vesta, visite la página oficial para obtener para obtener la aplicación.</p>
+</li>
+<li>
+<p>Disponer de los instaladores de Vesta, provenientes de la página oficial.</p>
+</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre></div>
+<p><strong>Sistema Operativo</strong></p>
+<ul>
+<li>Microsoft Windows: como mínimo Windows XP en adelante o cualquier versión de Linux </li>
+<li>Memoria RAM: 8 GB</li>
+<li>Procesador: Dual core 2 Ghz</li>
+<li>Espacio en disco duro: 350 Mb de la aplicación.</li>
+<li>Oracle JDK y JRE 1.8+  (no compatible con 9 o 10) o bien Oracle Linux 5.0 +, depende del Sistema Operativo con el que se disponga.</li>
+<li>Winrar</li>
+</ul>
+<p><strong>Base de Datos</strong></p>
+<ul>
+<li>
+<p>Versión</p>
+<ul>
+<li>Oracle DataBase 11g (Standalone o RAC)</li>
+<li>Oracle DataBase 12c(Standalone o RAC)   Real aplication cluster.<pre><code>   En caso de ser RAC se deberá disponer del componente SCAN
+</code></pre>
+</li>
+</ul>
+</li>
+<li>
+<p>Espacio: 10 GB</p>
+</li>
+<li>Character Set : AL32UTF8</li>
+<li>SHARED_POOL_SIZE : 147,456 KB</li>
+<li>SGA_MAX_SIZE : 147,456 KB</li>
+<li>DB_BLOCK_SIZE : 8 KB</li>
+<li>session_cached_cursors : 100</li>
+<li>processes : 500</li>
+<li>open_cursors : 800</li>
+<li>db_files : 600</li>
+<li>Usuario: Se deberá disponer de un usuario con permisos de creación de objetos sobre la base de datos.</li>
+</ul>
+<h2 id="instalacion">Instalación</h2>
+<p>Una vez que se han cumplido los requisitos previos a la instalación del producto, se procede con la instalación.
+Los archivos necesarios para la instalación de la aplicación se encuentran contenidos en la carpeta comprimida que se descargo de la página oficial. Se extraen los archivos:</p></div>
         </div>
 
         <footer class="col-md-12">
@@ -136,11 +145,11 @@ docs/
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">
@@ -208,8 +217,3 @@ docs/
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.0
-Build Date UTC : 2018-08-09 21:36:36
--->
