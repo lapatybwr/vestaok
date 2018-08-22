@@ -1,0 +1,16 @@
+site_name: Vesta
+pages:
+    - Inicio: 1 index.md
+    - Instalación: 2 instalacion.md
+    - Ingreso: 3 ingreso.md
+    - Bases: 4 bases.md
+    - Profundizando: 5 profundizando.md
+    - Entries: 6 entries.md
+    - Plugin WebLogic: 7 plugin_weblogic.md
+    - Plugin SOA: 8 plugin_soa.md
+    - Patches: 9 patches.md
+    - Auditor: 10 auditor.md
+    - Notificaciones: 11 notificaciones.md
+    
+theme:
+   name: 'material'
